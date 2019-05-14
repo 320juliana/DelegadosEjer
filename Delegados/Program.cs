@@ -10,8 +10,8 @@ namespace Delegados
         //ejercicios
         static void Main(string[] args)
         {
-            //obtener todos los proyectos cuya relacion sea >6 y <a12 
-
+            //Obtener todos los proyectos cuya relacion sea >6 y <a12 
+       
             //Proyecto pro = new Proyecto();
             //Console.WriteLine("***************Primer ejercicio***************");
             //pro.AddProyect2();
@@ -34,7 +34,7 @@ namespace Delegados
             //pro.MostrarLista(Search.ToList());
             //Console.ReadLine();
 
-            //obtener todos los proyectos cuyo codigo sea muLTIPLO DE 7
+            //Obtener todos los proyectos cuyo codigo sea muLTIPLO DE 7
 
             //Proyecto pro = new Proyecto();
             //Console.WriteLine("***************Tercer ejercicio***************");
@@ -44,7 +44,7 @@ namespace Delegados
             //pro.MostrarLista(Multi);
             //Console.ReadLine();
 
-             //agrupar los proyectos que tengan una duracion superior a 6 y menor a 10
+             //Agrupar los proyectos que tengan una duracion superior a 6 y menor a 10
 
             //Proyecto pro = new Proyecto();
             //Console.WriteLine("***************Primer ejercicio***************");
