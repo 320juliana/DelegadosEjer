@@ -6,20 +6,21 @@ namespace Delegados
 {
     class Program
     {
-
-
+        
+        //ejercicios
         static void Main(string[] args)
         {
-            /************11111***********/
+            //obtener todos los proyectos cuya relacion sea >6 y <a12 
+
             //Proyecto pro = new Proyecto();
             //Console.WriteLine("***************Primer ejercicio***************");
             //pro.AddProyect2();
             //var proyectolis = pro.proyectosList;
             //var guardar = proyectolis.Where(x => x.Codigo > 6 && x.Codigo < 12).ToList();
-            //pro.ShowList(guardar);
+            //pro.MostrarLista(guardar);
             //Console.ReadLine();
 
-            /***********22222************/
+           //obtener todos los proyectos que empiencen por b
 
 
 
@@ -30,20 +31,20 @@ namespace Delegados
             //var Search = from p in proyectolis
             //             where (p.Nombre.StartsWith("B"))
             //             select p;
-            //pro.ShowList(Search.ToList());
+            //pro.MostrarLista(Search.ToList());
             //Console.ReadLine();
 
-            /***********33333************/
+            //obtener todos los proyectos cuyo codigo sea muLTIPLO DE 7
 
             //Proyecto pro = new Proyecto();
             //Console.WriteLine("***************Tercer ejercicio***************");
             //pro.AddProyect2();
             //var proyectolis = pro.proyectosList;
             //var Multi = proyectolis.Where(x => x.Codigo % 7 ==0).ToList();
-            //pro.ShowList(Multi);
+            //pro.MostrarLista(Multi);
             //Console.ReadLine();
 
-            /***********4444************/
+             //agrupar los proyectos que tengan una duracion superior a 6 y menor a 10
 
             //Proyecto pro = new Proyecto();
             //Console.WriteLine("***************Primer ejercicio***************");
@@ -87,7 +88,7 @@ namespace Delegados
             //Console.ReadLine();
 
 
-            /***********5555555************/
+             //obtener el promedio de la duracion de todos los proyectos
 
 
 
@@ -101,7 +102,7 @@ namespace Delegados
 
 
 
-            /***********5555555************/
+            //obtener el nimbre del proyecto con mas duracion
 
 
             //Proyecto pro = new Proyecto();
@@ -117,7 +118,7 @@ namespace Delegados
 
 
 
-            /*******777777777************/
+            //seleccionar el nombre y el area el proyecto con duracion mayor a 6 (firtsorDefault)
 
 
 
@@ -134,12 +135,11 @@ namespace Delegados
             //   }
 
             //).ToList();
-            //pro.ShowList(NombreArea);
+            //pro.MostrarLista(NombreArea);
 
             //Console.ReadLine();
 
-            /*******8888888************/
-
+        //verificar si hay un proyecto
             //Proyecto pro = new Proyecto();
             //Console.WriteLine("***************Primer ejercicio***************");
             //pro.AddProyect2();
@@ -148,8 +148,8 @@ namespace Delegados
             //Console.WriteLine($"{guardar}");
             //Console.ReadLine();
 
-            /*******99999999************/
 
+          //sumar las duraciones de los proyectos cuyo codigo sea superior a 20
             //Proyecto pro = new Proyecto();
             //Console.WriteLine("***************Primer ejercicio***************");
             //pro.AddProyect2();
@@ -158,7 +158,7 @@ namespace Delegados
             //Console.WriteLine($"{sum}");
             //Console.ReadLine();
 
-            /*******100000************/
+          
 
             
 
